@@ -1,427 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sign Up Page</title>
-        <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
-    </head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap"
-      rel="stylesheet"
-    />
-        <link rel="stylesheet" href="CSS/signup.css"> 
-    <body>
-        <!--head body-->
-        <div class= "entirepage">
-          <!--top navigation-->
-            <nav class="navbar">
-              <div class="logo_header">
-                <a href="#" class="logo">En Masse</a>
-               
-                <button class="navbar_toggle">
-                  <i class="fas fa-bars"></i>
-                </button>
-                
-              </div>
-              <ul class="main_nav">
-                <div  id="buttonsafter">
-                  <a href="#" >Sign In</a>
-                  <a href="#" ><input class ="button" id="topnavbutton" type="button" value="Signup"></a>
-                </div>
-                <li>
-                  <a href="#" class="nav_links">Home</a>
-                </li>
-                <li>
-                  <a href="#" class="nav_links">Categories</a>
-                </li>
-                <li>
-                  <a href="#" class="nav_links">FAQ</a>
-                </li>
-                <li>
-                  <a href="#" class="nav_links">Become an Agent</a>
-                </li>
-              </ul>
-              <div  id="buttonsbefore">
-                <a href="#" >Sign In</a>
-                <a href="#" ><input class ="button" id="topnavbutton" type="button" value="Sign Up"></a>
-              </div>
-            </nav>
-          <!--main body-->
-          <div class="container">
-            <header>
-                <p id='title'>Your Bulk Product Orders at ease</p>
-            </header>
-            <div class="header-part2">
-                <div class="textholder">
-                  <p class="headertext">Are you in need of items to buy</p>
-                  <p class="subtitletext">Publish requests for free</p>
-                  <br>
-                  <a href="#" ><input class ="button" id="topnavbutton" type="button" value="Make Request"></a>
-                </div>
-              <img class="header-image" src="assets/happy-multiethnic-women-having-fun-while-using-gadgets-in-4350210-removebg-preview 1.png">
-            </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Properings-Project</title>
+  <script src="https://kit.fontawesome.com/82f797382f.js" crossorigin="anonymous"></script>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+  rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css?family=Proxima+Nova:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet">
+<link rel="stylesheet" href="CSS/signup.css">
+
+<body>
+  <!--head body-->
+  <div class="entirepage">
+    <!--top navigation-->
+    <div class="section-1">
+      <nav class="navbar">
+        <div class="logo_header">
+          <a href="#" class="logo">Properings</a>
         </div>
-        <div class="search-container">
-          <p class="searchtitle">Explore our wide range of product requests by publishers</p>
-          <div class="search">
-            <input type="email" class="search-input" placeholder="        Search">
-            <button class="search-button"><i class="fa fa-search"></i></button>
-          </div>
-        </div>
-        <div class="main-frame">
-        <div class="mainframe-part1">
-          <div class="part1-head">
-            <p><span class="productsno">10</span> products</p>
-          </div>
-          <button class="filter-toogle">
-            <i class="fa fa-sliders"></i>
-          </button>  
-          <div class="filter">
-          <div class="part1-sort">
-            <p>Sort</p>
-            <div class="sortdropbox">
-              <p class="sorttext">Relevance</p>
-              
-              <div class="dropdown">
-                <i class="fa fa-caret-down"></i></div>
-            </div>
-          </div>
-          
-          <div class="part1-categories">
-            <p class="categorieshead">CATEGORIES</p>
-            <input type="checkbox" name="vehicle" value="Vehicle">
-            <label for="vehicle">Vehicles</label><br>
-            <input type="checkbox" name="Property" value="Property">
-            <label for="Property">Property</label><br>
-            <input type="checkbox" name="Phones" value="Phones">
-            <label for="Phones">Mobile Phones & Tablets</label><br>
-            <input type="checkbox" name="Electronics" value="Electronics">
-            <label for="Electronics">Electronics</label><br>
-            <input type="checkbox" name="Furniture" value="Furniture">
-            <label for="Furniture">Furniture & Appliances</label><br>
-            <input type="checkbox" name="Health" value="Health">
-            <label for="Health">Health & Beauty</label><br>
-            <input type="checkbox" name="Fashion" value="Fashion">
-            <label for="Fashion">Fashion</label><br>
-            <input type="checkbox" name="Sports" value="Sports">
-            <label for="Sports">Sports, Arts & Outdoors</label><br>
-            <input type="checkbox" name="CV" value="CV">
-            <label for="CV">Seeking Work - CVs</label><br>
-            <input type="checkbox" name="Services" value="Services">
-            <label for="Services">Services</label><br>
-            <input type="checkbox" name="Kids" value="Kids">
-            <label for="Kids">Babies & Kids</label><br>
-            <input type="checkbox" name="Animals" value="Animals">
-            <label for="Animals">Animals & Pets</label><br>
-            <input type="checkbox" name="Foods" value="Foods">
-            <label for="Foods">Agriculture & Food</label><br>
-          
-          </div>
-          </div>
-        </div>
-        <div class="mainframe-part2">
-          <div class="grid">
-          <div class="card-container">
-          <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 5.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Towels</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle2.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Water Bottles</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 3.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Gravel Sand</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-          <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 4.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Bag of Rice</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Wall tiles</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 6.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Tyre</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-          <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 7.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Wrist Watch</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 8.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Sandals</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 9.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Rope</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-          <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 10.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Broom and Packer</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 11.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Sewing Kit</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-                  <p><span class="price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            <div class="card" >
-              <div class="icon-card2">
-              <img class="card-image" src="assets/Rectangle 12.png">
-              </div>
-              <div class="card-text2">
-                <p class="cardhead">
-                  Ceramic Plate</p>
-                  <p class="poster"
-                  >Posted by: Adelani Sunday</p>
-                  <p class = "Quantity">
-                  Quantity: 200 pieces</p>
-
-                  <p><span class = "price-style"
-                    >$32.00</span> per piece</p>
-                  <a href="#" ><input id="sellbutton" type="button" value="Sell"></a>
-            </div>
-          </div>
-            </div>
-            </div>
-            <div class="tags-button">
-              <button class="arrow-button"><i class="fa fa-long-arrow-left"></i></button>
-              <button class="page">1</button>
-              <button id="active" class="page">2</i></button>
-              <button id="nocolor" class="page">...</button>
-              <button class="page">8</button>
-              <button class="arrow-button"><i class="fa fa-long-arrow-right"></i></button>
-              </div>
-            </div>   
-        </div>
-        <!--Bottom Navigation-->
-        <div class="topfooter">
-          <p class="footerhead">Your Goods Deserves a Wider Reach</p>
-          <p id="subscribe-label">Join a List of our Agents</p>
-          <button type='submit'  style="box-shadow: none; border-radius: 2px;" class ="button" id='agent'>Become an Agent</button>          
-        </div>
-        <div class="bottomnav">
-          <div class="box" id="box1">
-            <div class='form-input'>
-            <label id='subscribe-label'>Enter your email address to get updates<br><br></label>
-            
-            <input type='text' style="border-radius: 2px;" id='name' placeholder='Enter your email address' class='form-input-size' required />
-          </div>
-          <div class='form-input'>
-            <button type='submit'  style="box-shadow: none; border-radius: 2px;" class ="button" id='submit'>Subscribe</button>
-        </div>
-      </div>
-      <div class="box">
-        <ul class="bottom_nav">
-          <br>
+        <ul class="main_nav">
           <li>
-            <a><h3>enMasse</h3></a>
+            <a href="#" class="nav_links">HOME</a>
           </li>
           <li>
-            <a>Home</a>
+            <a href="#" class="nav_links">ABOUT US</a>
           </li>
           <li>
-            <a>Products</a>
+            <a href="#" class="nav_links">TEAM</a>
           </li>
           <li>
-            <a>Categories</a>
-          </li>
-          <li>
-            <a>About Us</a>
-          </li>
-          <li>
-            <a>Make Request</a>
-          </li>
-          <li>
-            <a>Become an Agent</a>
+            <a href="#" class="nav_links">CONTACT</a>
           </li>
         </ul>
-      </div>
-     
-      <div class="box" id="box2">
-        <ul class="bottom_nav" >
-          <br>
-          <li>
-            <a><h3>Terms</h3></a>
-          </li>
-          <li>
-            <a>Terms of Use</a>
-          </li>
-          <li>
-            <a>Privacy Policy</a>
-          </li>
-        </ul>
-        <br>
-        <div class="socialbuttons">
-          <i class="fa fa-facebook-f"></i>
-          <i class="fa fa-twitter"></i>
-          <i class="fa fa-instagram"></i>
+        <div class="navbar_toggle">
+          <img src="assets/Toggle.png">
         </div>
+      </nav>
+      <div class="section1-text">
+        <p class="heading">New Way Of Living</p>
+        <button class="standardbutton">Get Started</button>
       </div>
+      <div class="floating-bar">
+        <div class="dropbox">
+          <div class="bar-text">
+            <p class="text1">Location</p>
+            <p class="text2">Lagos</p>
+          </div>
+          <div class="dropdown">
+            <i class="fa fa-angle-down"></i>
+          </div>
         </div>
+        <div class="dropbox">
+          <div class="bar-text">
+            <p class="text1">Property type</p>
+            <p class="text2">Duplex house</p>
+          </div>
+          <div class="dropdown">
+            <i class="fa fa-angle-down"></i>
+          </div>
+        </div>
+        <div class="dropbox">
+          <div class="bar-text">
+            <p class="text1">Max price</p>
+            <p class="text2">$25000-35000</p>
+          </div>
+          <div class="dropdown">
+            <i class="fa fa-angle-down"></i>
+          </div>
+        </div>
+        <button class="search-button">
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="section-2">
+      <div class="section2-image">
+        <img class="section2-img" src="assets/section2.png">
+      </div>
+      <div class="section2-text">
+        <p class="section2-head">About us</p>
+        <p class="section2-body">Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Dolor turpis aliquam urna
+          et, aliquam sed dignissim fermentum urna
+          .Potenti sit sagittis dui netus facilisi.
+          Lacinia tincidunt ac feugiat sed.
+          Fermentum mattis egestas at sed eu nibh.
+        </p>
+        <button class="standardbutton">Learn more</button>
+      </div>
 
-      <!--Copyright-->
-        <div class="copywrite">
-          <p>Copyright 2020 	&#169;  enMasse. All rights reserved</p>
+    </div>
+    <div class="section-3">
+      <div class="card-container">
+        <div class="card">
+          <div class="icon-card">
+            <img class="card-image" src="assets/Rectangle 25.png">
+          </div>
+          <div class="card-text">
+            <p class="price-style">$10,000<i id="active" class="fa fa-heart"></i></p>
+            <p class="icons"><i id="icon1" class="fa fa-bed"></i>5<i id="icon2" class="fa fa-bath"></i>3</p>
+            <p class="cardhead">Lekki Villa</p>
+            <p class="cardhead2">Abuja, Nigeria</p>
+          </div>
         </div>
+        <div class="card" id="addpadding">
+          <div class="icon-card">
+            <img class="card-image" src="assets/Rectangle 26.png">
+          </div>
+          <div class="card-text">
+            <p class="price-style">$45,000<i class="fa fa-heart"></i></p>
+            <p class="icons"><i id="icon1" class="fa fa-bed"></i>5<i id="icon2" class="fa fa-bath"></i>3</p>
+            <p class="cardhead">King Palace</p>
+            <p class="cardhead2">Lagos, Nigeria</p>
+          </div>
         </div>
-        <script src="JS/script.js"></script>
-    </body> 
+        <div class="card" id="addpadding">
+          <div class="icon-card">
+            <img class="card-image" src="assets/Rectangle 27.png">
+            <img class="floatingbutton" src="assets/Group 2.png">
+          </div>
+          <div class="card-text">
+            <p class="price-style">$50,000<i class="fa fa-heart"></i></p>
+            <p class="icons"><i id="icon1" class="fa fa-bed"></i>5<i id="icon2" class="fa fa-bath"></i>3</p>
+            <p class="cardhead">Executive</p>
+            <p class="cardhead2">Abuja, Nigeria</p>
+          </div>
+        </div>
+      </div>
+      <div class="two-dots">
+        <div class="dot-1"></div>
+        <div class="dot-2"></div>
+        <div class="dot-2"></div>
+      </div>
+    </div>
+    <div class="section-4">
+      <p class="section2-head">How it Works</p>
+      <div class="card-container">
+        <div class="card2">
+          <div class="icon-card2">
+            <img class="card-image2" src="assets/icon1.png">
+          </div>
+          <div class="card-text2">
+            <p class="card2-head">Evaluate your property</p>
+            <p class="card2-body">Evaluation of property
+              is very important
+              for purchase</p>
+          </div>
+        </div>
+        <div id="addpadding2" style="background: #222222; color: #fff" class="card2">
+          <div class="icon-card2">
+            <img class="card-image2" src="assets/icon2.png">
+          </div>
+          <div class="card-text2">
+            <p style="color: #fff;" class="card2-head">Pay for property</p>
+            <p class="card2-body">Pay for your the property of your choice</p>
+          </div>
+        </div>
+        <div id="addpadding2" class="card2">
+          <div class="icon-card2">
+            <img class="card-image2" src="assets/icon3.png">
+          </div>
+          <div class="card-text2">
+            <p class="card2-head">Close the deal</p>
+            <p class="card2-body">Ger to connect with us let us help you close the deal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-5">
+      <div class="frame-holder">
+        <div class="section5-image">
+          <img src="assets/Section5.png">
+        </div>
+        <img class="playbutton" src="assets/playbutton.png">
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <div class="boxtext">
+            <p class="boxtext1">Property Insurance</p>
+            <p class="boxtext2">First you should meet with
+              your agents</p>
+          </div>
+        </div>
+        <div id="addpadding3" style="background: #222222" class="box">
+          <div class="boxtext">
+            <p style="color: #fff" class="boxtext1">Tax  Advantage</p>
+            <p style="color: #fff"  class="boxtext2">First you should meet with
+              your agents</p>
+          </div>
+        </div>
+        <div  id="addpadding3" class="box">
+          <div class="boxtext">
+            <p class="boxtext1">Lowest Commission</p>
+            <p class="boxtext2">First you should meet with
+              your agents</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="section-6">
+      <p class="section2-head">Testimonials</p>
+      <div class="card-container2">
+        <div class="card3">
+          <div class="icon-card4">
+            <img class="quote" src="assets/quote.png">
+            <img src="assets/ticon1.png">
+          </div>
+          <div class="card3-text">
+            <p class="card3text1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="card3text2">Leslie Alexander</p>
+            <p class="card3text3"> Surveyor</p>
+          </div>
+        </div>
+        <div id="addpadding4" style="
+        background: #FFFFFF;
+        border: 1px solid #EFEFEF;
+        box-shadow: 0px 12px 35px rgba(160, 121, 0, 0.2);
+        border-radius: 5px;" 
+        class="card3">
+          <div class="icon-card4">
+            <img class="quote" src="assets/quote.png">
+            <img src="assets/ticon2.png">
+          </div>
+          <div class="card3-text">
+            <p style="color: #333333;" class="card3text1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="card3text2">Guy Hawkins</p>
+            <p class="card3text3"> Architect</p>
+          </div>
+        </div>
+        <div id="addpadding4" class="card3">
+          <div class="icon-card4">
+            <img class="quote" src="assets/quote.png">
+            <img src="assets/ticon3.png">
+          </div>
+          <div class="card3-text">
+            <p class="card3text1">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="card3text2">Arthur Broklyn</p>
+            <p class="card3text3"> Consultant</p>
+          </div>
+        </div>
+        <div class="three-dots">
+          <div style="background: #fff;" class="dot-1"></div>
+          <div  style="background: #7a7a7a" class="dot-2"></div>
+          <div  style="background: #7a7a7a" class="dot-2"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section-7">
+      <div class="footer">
+        <div class="footerbox" id="box1">
+          <div style="line-height: 64px; margin-bottom: 14px;"  class="logo_header">
+            <a href="#" style="color: #fff;" class="logo">Properings</a>
+          </div>
+          <p class="footertext1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi nam dictumst nisl egestas tristique. Sed sagittis, vestibulum, sapien, sed faucibus. Libero placerat gravida justo rhoncus. Sit pellentesque tempus, sapien odio diam vulputate metus scelerisque.</p>
+        </div>
+        <div class="footerbox" >
+          <p class="footerhead">Quicklinks</p>
+          <p class="footerbody">Architecture</p>
+          <p class="footerbody">Asset Valuation</p>
+          <p class="footerbody">Home</p>
+          <p class="footerbody">Estate</p>
+          <p class="footerbody">Management</p>
+        </div>
+        <div class="footerbox">
+          <p class="footerhead">Contact Us</p>
+          <p class="footerbody">Terms and Conditions</p>
+          <p class="footerbody">Faq</p>
+        </div>
+      </div>
+      <div class="socialbuttons">
+        <i style="
+        color: #232323;
+        background: #FDF9F9;
+        font-size: 17px;
+        padding: 3px 1px 0px 6px;
+        border-radius: 3px;"
+        class="fa fa-facebook circle"></i>
+        <i class="fa fa-twitter"></i>
+        <i  class="fa fa-instagram"></i>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Privacy Policy <span style="margin-left: 20px;">Site <span style="color: #FFC000;">Credit</span></span></p>
+    </div>
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+
 </html>
